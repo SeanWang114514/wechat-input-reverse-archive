@@ -36,3 +36,10 @@ ZIP 类容器已递归检查，详见 redactions.json。模式扫描不能保证
 最新快照共 11011 个文件；本次新增 10 个，修改 2 个。
 先解压主归档全部分卷，再按文件名时间顺序依次覆盖解压所有 wechat-input-reverse-delta-*.zip。本次增量为 wechat-input-reverse-delta-20261115-151413.zip。
 最新完整文件清单：manifest-latest-20261115-151413.json；变更与删除路径清单：delta-20261115-151413.json。
+
+## 最新增量补充 20261115-160432
+
+在主归档校验后检测到项目目录新增/变更文件，已补充完整验证的增量备份。
+最新快照共 11073 个文件；本次新增 62 个，修改 2 个。
+先解压主归档全部分卷，再按文件名时间顺序依次覆盖解压所有 wechat-input-reverse-delta-*.zip。本次增量为 wechat-input-reverse-delta-20261115-160432.zip。
+最新完整文件清单：manifest-latest-20261115-160432.json；变更与删除路径清单：delta-20261115-160432.json。
