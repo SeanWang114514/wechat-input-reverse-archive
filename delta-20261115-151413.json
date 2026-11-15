@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "file_count": 11011,
+    "directory_count": 2215,
+    "source_bytes": 5203312535,
+    "public_bytes": 5203312535,
+    "redacted_files": 23,
+    "replacements": 90
+  },
+  "added_files": [
+    "notes/asr-streaming/deploy_streaming.py",
+    "notes/asr-streaming/deployment.json",
+    "notes/asr-streaming/inspect_overlay.py",
+    "notes/asr-streaming/real-mimo-smoke.json",
+    "notes/asr-streaming/restart_overlay.py",
+    "notes/asr-streaming/smoke_real_mimo.py",
+    "notes/asr-streaming/baseline/_asr-cloud-contract.md",
+    "notes/asr-streaming/baseline/使用说明.md",
+    "notes/asr-streaming/src/_asr-cloud-contract.md",
+    "notes/asr-streaming/src/使用说明.md"
+  ],
+  "modified_files": [
+    "notes/asr-streaming/synthetic-test.wav",
+    "notes/asr-streaming/test_streaming_asr.py"
+  ],
+  "removed_files": [],
+  "delta_redactions": [],
+  "restore": "Extract the main 7z archive first, then overlay this ZIP. Remove paths in removed_files to reproduce the latest snapshot."
+}
