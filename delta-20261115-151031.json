@@ -1,0 +1,30 @@
+{
+  "summary": {
+    "file_count": 11001,
+    "directory_count": 2215,
+    "source_bytes": 5203023224,
+    "public_bytes": 5203023224,
+    "redacted_files": 23,
+    "replacements": 90
+  },
+  "added_files": [
+    "notes/voice-asr-streaming-plan-20261115.md",
+    "notes/asr-streaming/mimo-doc.html",
+    "notes/asr-streaming/synthetic-test.wav",
+    "notes/asr-streaming/test_streaming_asr.py",
+    "notes/asr-streaming/__pycache__/test_streaming_asr.cpython-312.pyc",
+    "notes/asr-streaming/baseline/voice-overlay.py",
+    "notes/asr-streaming/src/voice-overlay.log",
+    "notes/asr-streaming/src/voice-overlay.py",
+    "notes/asr-streaming/src/voice_overlay_focus.py",
+    "notes/asr-streaming/src/voice_overlay_uia.py",
+    "notes/asr-streaming/src/__pycache__/voice-overlay.cpython-312.pyc",
+    "notes/asr-streaming/src/__pycache__/voice-overlay.cpython-314.pyc",
+    "notes/asr-streaming/src/__pycache__/voice_overlay_focus.cpython-314.pyc",
+    "notes/asr-streaming/src/__pycache__/voice_overlay_uia.cpython-314.pyc"
+  ],
+  "modified_files": [],
+  "removed_files": [],
+  "delta_redactions": [],
+  "restore": "Extract the main 7z archive first, then overlay this ZIP. Remove paths in removed_files to reproduce the latest snapshot."
+}
