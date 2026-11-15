@@ -1,0 +1,119 @@
+{
+  "summary": {
+    "file_count": 10987,
+    "directory_count": 2210,
+    "source_bytes": 5201764781,
+    "public_bytes": 5201764781,
+    "redacted_files": 23,
+    "replacements": 90
+  },
+  "events": [
+    {
+      "path": "out/bench-jian-pin-live/user/clipboard-cache.txt",
+      "replacements": 2
+    },
+    {
+      "path": "out/bench-min/user/clipboard-cache.txt",
+      "replacements": 1
+    },
+    {
+      "path": "out/bench-rebuild/user/clipboard-cache.txt",
+      "replacements": 1
+    },
+    {
+      "path": "out/bench-var/user/clipboard-cache.txt",
+      "replacements": 1
+    },
+    {
+      "path": "out/bench-var2/user/clipboard-cache.txt",
+      "replacements": 1
+    },
+    {
+      "path": "out/bench-work/user/clipboard-cache.txt",
+      "replacements": 1
+    },
+    {
+      "path": "out/iso-rime_ice/user/clipboard-cache.txt",
+      "replacements": 1
+    },
+    {
+      "path": "out/iso2-rime_ice/user/clipboard-cache.txt",
+      "replacements": 1
+    },
+    {
+      "path": "out/reports/PUBLISH_serverkv_redacted.txt",
+      "replacements": 28
+    },
+    {
+      "path": "out/reports/serverkv_pb.txt",
+      "replacements": 28
+    },
+    {
+      "path": "out/var-cand-base-20261023/user/clipboard-cache.txt",
+      "replacements": 5
+    },
+    {
+      "path": "out/var-cand-pin-20261023/user/clipboard-cache.txt",
+      "replacements": 5
+    },
+    {
+      "path": "out/var-en-gate-off/user/clipboard-cache.txt",
+      "replacements": 1
+    },
+    {
+      "path": "out/var-en-gate-stream/user/clipboard-cache.txt",
+      "replacements": 1
+    },
+    {
+      "path": "out/var-fuzzy-bypass/user/clipboard-cache.txt",
+      "replacements": 1
+    },
+    {
+      "path": "out/var-fuzzy-en-bypass/user/clipboard-cache.txt",
+      "replacements": 1
+    },
+    {
+      "path": "out/var-nofuzzy/user/clipboard-cache.txt",
+      "replacements": 1
+    },
+    {
+      "path": "out/var-page9/user/clipboard-cache.txt",
+      "replacements": 1
+    },
+    {
+      "path": "samples/runtime/ServerKvDir/001910.ldb",
+      "replacements": 4
+    },
+    {
+      "path": "samples/runtime/ServerKvDir/009770.ldb",
+      "replacements": 1
+    },
+    {
+      "path": "samples/runtime/ServerKvDir/009772.ldb",
+      "replacements": 1
+    },
+    {
+      "path": "samples/runtime/ServerKvDir/009774.ldb",
+      "replacements": 1
+    },
+    {
+      "path": "samples/runtime/context_capture/refetch_sync_legacy.log",
+      "replacements": 2
+    }
+  ],
+  "policy": "Credential values replaced with length-preserving [REDACTED] markers. LevelDB SST blocks rebuilt with updated indexes and CRC32C; obsolete Bloom filters removed. ZIP members inspected recursively. Pattern scans do not guarantee discovery of every secret.",
+  "public_test_key_exception": {
+    "sha256": [
+      "67153216753676a99069a64f0986ef7015efed5eca8d545261c6c1aa9e9117c8"
+    ],
+    "sources": [
+      "https://raw.githubusercontent.com/netty/netty/netty-4.2.6.Final/handler/src/main/java/io/netty/handler/ssl/OpenSsl.java",
+      "https://raw.githubusercontent.com/netty/netty/netty-4.2.6.Final/handler/src/main/java/io/netty/handler/ssl/SslUtils.java",
+      "https://raw.githubusercontent.com/netty/netty/netty-4.2.6.Final/handler/src/main/java/io/netty/handler/ssl/JdkSslServerContext.java",
+      "https://raw.githubusercontent.com/netty/netty/4.1/handler/src/main/java/io/netty/handler/ssl/OpenSsl.java",
+      "https://raw.githubusercontent.com/netty/netty/4.1/handler/src/main/java/io/netty/handler/ssl/SslUtils.java",
+      "https://raw.githubusercontent.com/netty/netty/4.1/handler/src/main/java/io/netty/handler/ssl/JdkSslServerContext.java"
+    ],
+    "note": "Exact embedded PEM bytes matched against publicly shipped Netty test-key material, using DER SHA-256."
+  }
+}
